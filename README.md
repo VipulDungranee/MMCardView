@@ -19,7 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
     iOS 8.0+
     Xcode 8.0+
-    Swift 3.0+
+    Swift 5.0+
 ## Use Card
 1.Inherit your collectionView to MMCollectionView
        
@@ -43,10 +43,8 @@ MMCardView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-Swift 3
+
 pod 'MMCardView'
-Swift2.3
-pod 'MMCardView',:git => 'https://github.com/MillmanY/MMCardView', :branch => ‘Swift2’
 
 ```
 
