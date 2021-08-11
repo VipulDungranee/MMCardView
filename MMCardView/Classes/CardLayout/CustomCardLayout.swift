@@ -282,8 +282,8 @@ public class CustomCardLayout: UICollectionViewLayout {
         if deletePath.count > 0 || insertPath.count > 0 {
             deletePath.removeAll()
             insertPath.removeAll()
-            let vi = self.collectionView!.subviews.sorted {
-                return $0.0.layer.zPosition < $0.1.layer.zPosition
+            let vi = self.collectionView!.subviews.sorted { v1 , v2 in
+                return v1.layer.zPosition < v2.layer.zPosition
             }
             vi.forEach({ (vi) in
                 collectionView?.addSubview(vi)
